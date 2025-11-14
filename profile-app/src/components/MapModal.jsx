@@ -3,6 +3,8 @@ import { X, MapPin, ExternalLink } from "lucide-react";
 
 const MapModal = ({ profile, onClose }) => {
   if (!profile) return null;
+const apiKey = import.meta.env.VITE_GOOGLE_MAPS_KEY;
+
 
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${profile.lat},${profile.lng}`;
 
@@ -14,7 +16,6 @@ const MapModal = ({ profile, onClose }) => {
             <h2 className="text-2xl font-bold text-gray-800">
               Location - {profile.name}
             </h2>
-           
           </div>
           <button
             onClick={onClose}
@@ -58,7 +59,7 @@ const MapModal = ({ profile, onClose }) => {
               height="100%"
               frameBorder="0"
               style={{ border: 0 }}
-              src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${profile.lat},${profile.lng}&zoom=15`}
+              src={`https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=${profile.lat},${profile.lng}&zoom=15`}
               allowFullScreen
               title={`Map location for ${profile.name}`}
             />
