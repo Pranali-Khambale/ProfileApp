@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+    "description": "Software Engineer passionate about web development ,Java,and AI",
+    "address": "1600 Amphitheatre Parkway, Mountain View, CA",
+    "lat": 37.422,
+    "lng": -122.0841,
+    "email": "sarah.j@example.com",
+    "phone": "+1 (555) 123-4567",
+    "interests": [
+      "Coding",
+      "Hiking",
+      "Photography"
+    ],
+    "updatedAt": "2025-11-14T05:57:16.212Z"
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    "description": "Product Manager with expertise in SaaS solutions",
+    "address": "1 Apple Park Way, Cupertino, CA",
+    "lat": 37.3349,
+    "lng": -122.009,
+    "email": "michael.c@example.com",
+    "phone": "+1 (555) 234-5678",
+    "interests": [
+      "Product Strategy",
+      "Tennis",
+      "Travel"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Emily Rodriguez",
+    "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+    "description": "UX Designer creating delightful user experiences",
+    "address": "1 Hacker Way, Menlo Park, CA",
+    "lat": 37.4847,
+    "lng": -122.1477,
+    "email": "emily.r@example.com",
+    "phone": "+1 (555) 345-6789",
+    "interests": [
+      "Design",
+      "Art",
+      "Yoga"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+    "description": "Data Scientist specializing in machine learning",
+    "address": "350 Mission St, San Francisco, CA",
+    "lat": 37.7906,
+    "lng": -122.3967,
+    "email": "david.k@example.com",
+    "phone": "+1 (555) 456-7890",
+    "interests": [
+      "AI/ML",
+      "Chess",
+      "Reading"
+    ]
+  },
+  {
+    "id": 1763101944783,
+    "name": "Saksha Johnson",
+    "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+    "description": "I am loyal",
+    "address": "1600 Amphitheatre Parkway, Mountain View,Nagar Road, CA",
+    "lat": 37.422,
+    "lng": -122.0841,
+    "email": "sarah.j@example.com",
+    "phone": "+1 (555) 123-4567",
+    "interests": [
+      "Coding",
+      "Hiking",
+      "Photography"
+    ],
+    "createdAt": "2025-11-14T06:32:24.783Z",
+    "updatedAt": "2025-11-14T06:36:17.184Z"
+  }
+]
